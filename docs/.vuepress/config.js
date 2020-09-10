@@ -25,12 +25,24 @@ module.exports = {
             {
               title: "JavaScript",
               collapsable: true,
-              children: [],
+              path: "/javascript/",
+              children: [
+                { title: "继承", path: "/javascript/inherit" },
+                { title: "this的指向与绑定", path: "/javascript/whatThis" }
+              ],
             },
             {
                 title: "CSS3",
                 collapsable: true,
                 children: [],
+            },
+            {
+              title: "VUE",
+              collapsable: true,
+              path: "/vue/",
+              children: [
+                { title: "实现双向数据绑定", path: "/vue/principle" }
+              ],
             },
             {
                 title: "算法",
