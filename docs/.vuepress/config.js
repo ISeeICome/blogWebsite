@@ -38,7 +38,8 @@ module.exports = {
               children: [
                 { title: "继承", path: "/javascript/inherit" },
                 { title: "原型链", path: "/javascript/prototypeChain" },
-                { title: "this的指向与绑定", path: "/javascript/this" }
+                { title: "this的指向与绑定", path: "/javascript/this" },
+                { title: "call、apply、bind区别", path: "/javascript/call_apply_bind" }
               ]
             },
             {
