@@ -60,6 +60,17 @@ module.exports = {
               ],
             },
             {
+              title: "前端性能优化",
+              collapsable: true,
+              path: "/frontEndOptimization/",
+              children: [
+                { title: "谷歌的预连接、预加载、预渲染", path: "/frontEndOptimization/谷歌的预连接_预加载_预渲染" },
+                { title: "谷歌浏览器实现预加载预预渲染", path: "/frontEndOptimization/谷歌浏览器实现预加载预预渲染" },
+                { title: "浏览器缓存", path: "/frontEndOptimization/浏览器缓存" },
+                { title: "prerender-spa-plugin预渲染", path: "/frontEndOptimization/prerender-spa-plugin预渲染" },
+              ],
+            },
+            {
                 title: "算法",
                 collapsable: true,
                 path: "/algorithm/",
