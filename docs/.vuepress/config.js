@@ -73,6 +73,15 @@ module.exports = {
               children: [
                 { title: "xss攻击", path: "/hiddenDange/xss" }
               ],
+            },
+            {
+              title: "计算机基础",
+              collapsable: true,
+              path: "/computerBasic/",
+              children: [
+                { title: "计算机原理", path: "/computerBasic/computeOriginal" },
+                { title: "存储单位", path: "/computerBasic/storageUnit" },
+              ],
             },  
             {
                 title: "其它",
@@ -82,6 +91,7 @@ module.exports = {
                   { title: "一次完整的HTTP请求发生了什么", path: "/other/httpRequest" },
                   { title: "TCP握手为什么是三次而不是两次", path: "/other/tcpHandShake" },
                   { title: "模块化规范", path: "/other/moduleStandard" },
+                  { title: "linux命令", path: "/other/linuxCmd" },
                 ],
             }
         ]
