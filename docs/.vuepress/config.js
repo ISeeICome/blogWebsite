@@ -68,6 +68,8 @@ module.exports = {
                 { title: "谷歌浏览器实现预加载预预渲染", path: "/frontEndOptimization/谷歌浏览器实现预加载预预渲染" },
                 { title: "浏览器缓存", path: "/frontEndOptimization/浏览器缓存" },
                 { title: "prerender-spa-plugin预渲染", path: "/frontEndOptimization/prerender-spa-plugin预渲染" },
+                { title: "文本风格", path: "/frontEndOptimization/textStyle" },
+                { title: "标题的使用", path: "/frontEndOptimization/titleUsing" },
               ],
             },
             {
