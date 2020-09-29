@@ -64,6 +64,7 @@ module.exports = {
               collapsable: true,
               path: "/frontEndOptimization/",
               children: [
+                { title: "前端页面加载速度指数", path: "/frontEndOptimization/performance" },
                 { title: "谷歌的预连接、预加载、预渲染", path: "/frontEndOptimization/谷歌的预连接_预加载_预渲染" },
                 { title: "谷歌浏览器实现预加载预预渲染", path: "/frontEndOptimization/谷歌浏览器实现预加载预预渲染" },
                 { title: "浏览器缓存", path: "/frontEndOptimization/浏览器缓存" },
