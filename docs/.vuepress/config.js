@@ -65,6 +65,15 @@ module.exports = {
                 children: [
                   { title: "排序算法", path: "/algorithm/sort" }
                 ],
+            },
+            {
+                title: "其它",
+                collapsable: true,
+                path: "/other/",
+                children: [
+                  { title: "一次完整的HTTP请求发生了什么", path: "/other/httpRequest" },
+                  { title: "TCP握手为什么是三次而不是两次", path: "/other/tcpHandShake" }
+                ],
             }
         ]
       },

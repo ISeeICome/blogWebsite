@@ -1,1 +1,1 @@
-# 我是jabascript
+# JavaScript
