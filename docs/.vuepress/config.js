@@ -81,6 +81,14 @@ module.exports = {
                 ],
             },
             {
+              title: "jquery",
+              collapsable: true,
+              path: "/jquery/ps",
+              children: [
+                { title: "jquery注意事项", path: "/jquery/ps" }
+              ],
+            },
+            {
               title: "jest",
               collapsable: true,
               path: "/jest/error",
