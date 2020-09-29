@@ -104,6 +104,7 @@ module.exports = {
                   { title: "TCP握手为什么是三次而不是两次", path: "/other/tcpHandShake" },
                   { title: "模块化规范", path: "/other/moduleStandard" },
                   { title: "linux命令", path: "/other/linuxCmd" },
+                  { title: "命令规范", path: "/other/namingConventions" },
                 ],
             }
         ]
