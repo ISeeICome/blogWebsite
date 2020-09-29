@@ -21,7 +21,7 @@ module.exports = {
         },
         {
           text: "博客日记",
-          link: "/diary",
+          link: "/diary/index",
         },
         {
           text: "备忘录",
@@ -34,8 +34,9 @@ module.exports = {
             {
               title: "JavaScript",
               collapsable: true,
-              path: "/javascript/",
+              path: "/javascript/introduction",
               children: [
+                { title: "介绍", path: "/javascript/introduction" },
                 { title: "继承", path: "/javascript/inherit" },
                 { title: "原型链", path: "/javascript/prototypeChain" },
                 { title: "this的指向与绑定", path: "/javascript/this" },
@@ -45,15 +46,16 @@ module.exports = {
             {
                 title: "CSS3",
                 collapsable: true,
-                path: "/css3/",
+                path: "/css3/introduction",
                 children: [
+                  { title: "介绍", path: "/css3/introduction" },
                   { title: "回流与重绘", path: "/css3/reflowAndRepaint" }
                 ],
             },
             {
               title: "VUE",
               collapsable: true,
-              path: "/vue/",
+              path: "/vue/principle",
               children: [
                 { title: "实现双向数据绑定", path: "/vue/principle" },
                 { title: "多页面应用开发", path: "/vue/morePages" },
@@ -62,7 +64,7 @@ module.exports = {
             {
               title: "前端性能优化",
               collapsable: true,
-              path: "/frontEndOptimization/",
+              path: "/frontEndOptimization/performance",
               children: [
                 { title: "前端页面加载速度指数", path: "/frontEndOptimization/performance" },
                 { title: "谷歌的预连接、预加载、预渲染", path: "/frontEndOptimization/谷歌的预连接_预加载_预渲染" },
@@ -76,7 +78,7 @@ module.exports = {
             {
                 title: "算法",
                 collapsable: true,
-                path: "/algorithm/",
+                path: "/algorithm/sort",
                 children: [
                   { title: "排序算法", path: "/algorithm/sort" }
                 ],
@@ -119,7 +121,7 @@ module.exports = {
             {
               title: "恶意攻击",
               collapsable: true,
-              path: "/hiddenDange/",
+              path: "/hiddenDange/xss",
               children: [
                 { title: "xss攻击", path: "/hiddenDange/xss" }
               ],
@@ -127,7 +129,7 @@ module.exports = {
             {
               title: "计算机基础",
               collapsable: true,
-              path: "/computerBasic/",
+              path: "/computerBasic/computeOriginal",
               children: [
                 { title: "计算机原理", path: "/computerBasic/computeOriginal" },
                 { title: "存储单位", path: "/computerBasic/storageUnit" },
@@ -136,7 +138,7 @@ module.exports = {
             {
                 title: "其它",
                 collapsable: true,
-                path: "/other/",
+                path: "/other/httpRequest",
                 children: [
                   { title: "一次完整的HTTP请求发生了什么", path: "/other/httpRequest" },
                   { title: "TCP握手为什么是三次而不是两次", path: "/other/tcpHandShake" },
@@ -166,7 +168,7 @@ module.exports = {
       dateFormat: 'YYYY-MM-DD', // 日期格式
       // Git 仓库和编辑链接
       repo: 'https://github.com/ISeeICome?tab=repositories', // 你的仓库
-      repoLabel: 'GitHub', // 导航栏上的文本
+      repoLabel: '我的GitHub', // 导航栏上的文本
   
     //   editLinks: true,
     //   默认为 "Edit this page"
