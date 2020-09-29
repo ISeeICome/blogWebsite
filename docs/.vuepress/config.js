@@ -72,7 +72,8 @@ module.exports = {
                 path: "/other/",
                 children: [
                   { title: "一次完整的HTTP请求发生了什么", path: "/other/httpRequest" },
-                  { title: "TCP握手为什么是三次而不是两次", path: "/other/tcpHandShake" }
+                  { title: "TCP握手为什么是三次而不是两次", path: "/other/tcpHandShake" },
+                  { title: "模块化规范", path: "/other/moduleStandard" },
                 ],
             }
         ]
