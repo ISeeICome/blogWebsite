@@ -55,7 +55,8 @@ module.exports = {
               collapsable: true,
               path: "/vue/",
               children: [
-                { title: "实现双向数据绑定", path: "/vue/principle" }
+                { title: "实现双向数据绑定", path: "/vue/principle" },
+                { title: "多页面应用开发", path: "/vue/morePages" },
               ],
             },
             {
