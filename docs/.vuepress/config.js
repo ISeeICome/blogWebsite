@@ -81,6 +81,14 @@ module.exports = {
                 ],
             },
             {
+              title: "jest",
+              collapsable: true,
+              path: "/jest/error",
+              children: [
+                { title: "错误记录", path: "/jest/error" }
+              ],
+            },
+            {
               title: "恶意攻击",
               collapsable: true,
               path: "/hiddenDange/",
