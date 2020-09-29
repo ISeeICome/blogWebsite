@@ -67,6 +67,14 @@ module.exports = {
                 ],
             },
             {
+              title: "恶意攻击",
+              collapsable: true,
+              path: "/hiddenDange/",
+              children: [
+                { title: "xss攻击", path: "/hiddenDange/xss" }
+              ],
+            },  
+            {
                 title: "其它",
                 collapsable: true,
                 path: "/other/",
