@@ -90,11 +90,30 @@ module.exports = {
               ],
             },
             {
+              title: "webpack",
+              collapsable: true,
+              path: "/webpack/introduction",
+              children: [
+                { title: "介绍", path: "/webpack/introduction" },
+                { title: "核心", path: "/webpack/coreConcept" },
+              ],
+            },
+            {
               title: "jest",
               collapsable: true,
               path: "/jest/error",
               children: [
                 { title: "错误记录", path: "/jest/error" }
+              ],
+            },
+            {
+              title: "vagrant",
+              collapsable: true,
+              path: "/vagrant/introduction",
+              children: [
+                { title: "介绍", path: "/vagrant/introduction" },
+                { title: "常用命令", path: "/vagrant/vagrantCmd" },
+                { title: "异常记录", path: "/vagrant/ps" },
               ],
             },
             {
