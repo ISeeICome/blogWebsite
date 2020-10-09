@@ -146,6 +146,15 @@ module.exports = {
                   { title: "linux命令", path: "/other/linuxCmd" },
                   { title: "命令规范", path: "/other/namingConventions" },
                 ],
+            },
+            {
+              title: "项目经历",
+              collapsable: true,
+              path: "/project/airport/introduction",
+              children: [
+                { title: "airport", path: "/project/airport/introduction" },
+                { title: "aiot", path: "/project/aiot/introduction" }
+              ],
             }
         ]
       },
