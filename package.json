@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ISeeICome/blogWebsite/issues"
   },
-  "homepage": "https://github.com/ISeeICome/blogWebsite#readme"
+  "homepage": "https://github.com/ISeeICome/blogWebsite#readme",
+  "dependencies": {
+    "vue-simple-tree": "^2.3.2"
+  }
 }
